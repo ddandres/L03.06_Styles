@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2019. David de Andrés and Juan Carlos Ruiz, DISCA - UPV, Development of apps for mobile devices.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <!-- TextView with the regular Android style -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regular_text" />
+
+    <!-- TextView with a custom style -->
+    <TextView
+        style="@style/main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_text" />
+
+    <!-- Button with the regular Android style -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/regular_button" />
+
+    <!-- Button with a color selector that changes the text color when clicked -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_button_text"
+        android:textColor="@color/selector_color_text_main_button" />
+
+    <!--
+      ~ Button with a selector that customises how the button is draw depending on its state.
+      ~ The Button has a rectangular shape with rounded corners,
+      ~ and changes its fill and border color when clicked
+      -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_custom_button_main"
+        android:text="@string/custom_button_shape"
+        android:textColor="@android:color/white" />
+
+    <!-- Regular ImageView -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/regular_image_view_description"
+        android:paddingTop="@dimen/image_view_padding"
+        android:paddingBottom="@dimen/image_view_padding"
+        app:srcCompat="@drawable/regular_image_view" />
+
+    <!--
+      ~ ImageView with a selector that changes the image displayed when clicked.
+      ~ Accordingly, it must be clickable.
+      -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="@string/custom_image_view_description"
+        android:focusable="true"
+        android:paddingTop="@dimen/image_view_padding"
+        android:paddingBottom="@dimen/image_view_padding"
+        app:srcCompat="@drawable/selector_custom_image_view" />
+</LinearLayout>

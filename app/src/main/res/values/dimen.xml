@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2019. David de Andrés and Juan Carlos Ruiz, DISCA - UPV, Development of apps for mobile devices.
+  -->
+
+<resources>
+    <!-- Dimensions for MainActivity elements -->
+    <dimen name="main_text_size">20sp</dimen>
+    <dimen name="image_view_padding">8dp</dimen>
+</resources>

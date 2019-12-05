@@ -1,0 +1,15 @@
+<!--
+  ~ Copyright (c) 2019. David de Andrés and Juan Carlos Ruiz, DISCA - UPV, Development of apps for mobile devices.
+  -->
+
+<resources>
+    <string name="app_name">L03.06_Styles</string>
+    <!-- Strings use in MainActivity -->
+    <string name="regular_text">Regular TextView defined in Android</string>
+    <string name="regular_button">Regular Button defined in Android</string>
+    <string name="custom_text">TextView with a custom style</string>
+    <string name="custom_button_text">Button with a custom color selector</string>
+    <string name="custom_button_shape">Button with a custom drawable selector</string>
+    <string name="regular_image_view_description">Regular ImageView</string>
+    <string name="custom_image_view_description">Custom ImageView</string>
+</resources>
