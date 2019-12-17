@@ -4,7 +4,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.example.android.l0306_styles"
+        applicationId "labs.dadm.l0306_styles"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1

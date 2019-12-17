@@ -1,4 +1,8 @@
-package com.example.android.l0306_styles;
+/*
+ * Copyright (c) 2019. David de Andrés and Juan Carlos Ruiz, DISCA - UPV, Development of apps for mobile devices.
+ */
+
+package labs.dadm.l0306_styles;
 
 import org.junit.Test;
 
